@@ -23,4 +23,7 @@ def main():
         save_excel(df_dirty, "data/dirty/Controles_sucios.xlsx")
     except ValueError as e:
         print(f"Error de validación en la tabla limpia: {e}")
+
         save_excel(df_dirty, "data/dirty/Controles_sucios.xlsx")
+if __name__ == "__main__"
+    main()
